@@ -1,0 +1,27 @@
+  h6{
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+    color: #e81e25;
+    cursor: pointer;
+    margin: 50px auto;
+    transition: 0.3s all ease;
+    padding: 10px 20px;
+    max-width: 500px;
+    text-align: center;
+  }
+  h6:hover{
+    border: 2px solid #e81e25;
+    border-radius: 5px;
+    transform: scale(1.1);
+  }
+  // .loves{
+  //   font-family: 'Pacifico', cursive;
+  //   font-size: 72px;
+  //   color: #e81e25;
+  //   cursor: pointer;
+  //   margin: 50px auto;
+  //   transition: 0.3s all ease;
+  //   padding: 10px 20px;
+  //   text-align: center;
+  //   display: none;
+  // }

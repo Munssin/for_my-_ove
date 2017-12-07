@@ -1,0 +1,59 @@
+header{
+  .wrap{
+    position: relative;
+    .arrow{
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      transition: 0.3s all ease;
+      opacity: 0.7;
+    }
+    .arrow:hover{
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    #arrow-left{
+      border-width: 30px 40px 30px 0;
+      left: 0;
+      margin-left: 40px;
+      border-color: transparent #fff transparent transparent;
+    }
+    #arrow-right{
+      border-width: 30px 0 30px 40px;
+      right: 0;
+      margin-right: 40px;
+      border-color: transparent transparent transparent  #fff;
+    }
+    #slider{
+      .slide{
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .slide1{
+        background-image: url(../img/6.png);
+      }
+      .slide2{
+        background-image: url(../img/bg1.png);
+      }
+      .slide3{
+        background-image: url(../img/bg3.png);
+      }
+      .slide-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        span{
+          font-size: 5rem;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
